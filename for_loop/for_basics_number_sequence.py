@@ -53,12 +53,18 @@
 #     # x = x - 2
 #     print(x)
 
-# tirgul
+# # tirgul
 
-start = int(input("enter a starting number: "))
-stop = int(input("enter a last number: "))
+# start = int(input("enter a starting number: "))
+# stop = int(input("enter a last number: "))
 
-for x in range(start,stop+1):
-    print(x)
+# for x in range(start,stop+1):
+#     print(x)
 
+x = 19
 
+print( x < 20 )
+
+while x < 20 :
+    print("shalom")
+    x = x + 1
