@@ -9,7 +9,7 @@
 3. do other stuff
 
 """
-# 4 basic operations on lists:
+# 4 basic CRUD operations on lists:
 # CREATE
 # READ
 # UPDATE
