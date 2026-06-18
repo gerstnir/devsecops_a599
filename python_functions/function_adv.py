@@ -62,5 +62,8 @@ three_params2( 8, 15 )
 
 # func( "Tel-aviv", "Moshe", 25 )
 # func( city="Tel-aviv", name="Moshe", age=25 )
-# myDeets = { "city":"Pardes Hana - Karkur", "name":"Aviv", "age":68 }
-# func(**myDeets)
+# myDeets = { 
+#             "city": "Pardes Hana - Karkur",
+#             "name": "Aviv",
+#             "age": 68 }
+# func( **myDeets )
