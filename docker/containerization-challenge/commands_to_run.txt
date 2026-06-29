@@ -1,0 +1,13 @@
+# first make sure you are in the directory with the Dockerfile and project files
+docker build -t ipinfo:v1.0 .
+
+docker run -d -p 8000:8000 ipinfo:v1.0
+
+
+במעבדת אתגר, כדי לבדוק אם האפליקציה עובדת כמו שצריך ניתן להיכנס לאחד הקישורים הבאים דרך הדפדפן:
+
+http://localhost:8000/ipinfo?ip=172.66.46.235
+(you can change 172.66.46.235 to any ip you'd like)
+
+http://localhost:8000/docs
+ipinfo -> try it out -> paste ip address in the text box -> send
